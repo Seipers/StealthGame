@@ -1,0 +1,3 @@
+S:\Unreal\StealthGame\Stealth\Source\Stealth\Stealth.Build.cs
+S:\Unreal\StealthGame\Stealth\Source\Stealth.Target.cs
+S:\Unreal\StealthGame\Stealth\Source\StealthEditor.Target.cs
