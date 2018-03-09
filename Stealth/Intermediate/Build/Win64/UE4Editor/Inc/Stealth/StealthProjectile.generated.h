@@ -17,7 +17,7 @@ struct FHitResult;
 #endif
 #define STEALTH_StealthProjectile_generated_h
 
-#define Stealth_Source_Stealth_StealthProjectile_h_12_RPC_WRAPPERS \
+#define Stealth_Source_Stealth_StealthProjectile_h_14_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnHit) \
 	{ \
@@ -33,7 +33,7 @@ struct FHitResult;
 	}
 
 
-#define Stealth_Source_Stealth_StealthProjectile_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Stealth_Source_Stealth_StealthProjectile_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnHit) \
 	{ \
@@ -49,7 +49,7 @@ struct FHitResult;
 	}
 
 
-#define Stealth_Source_Stealth_StealthProjectile_h_12_INCLASS_NO_PURE_DECLS \
+#define Stealth_Source_Stealth_StealthProjectile_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAStealthProjectile(); \
 	friend STEALTH_API class UClass* Z_Construct_UClass_AStealthProjectile(); \
@@ -61,7 +61,7 @@ public: \
 
 
 
-#define Stealth_Source_Stealth_StealthProjectile_h_12_INCLASS \
+#define Stealth_Source_Stealth_StealthProjectile_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesAStealthProjectile(); \
 	friend STEALTH_API class UClass* Z_Construct_UClass_AStealthProjectile(); \
@@ -73,7 +73,7 @@ public: \
 
 
 
-#define Stealth_Source_Stealth_StealthProjectile_h_12_STANDARD_CONSTRUCTORS \
+#define Stealth_Source_Stealth_StealthProjectile_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AStealthProjectile(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AStealthProjectile) \
@@ -86,7 +86,7 @@ private: \
 public:
 
 
-#define Stealth_Source_Stealth_StealthProjectile_h_12_ENHANCED_CONSTRUCTORS \
+#define Stealth_Source_Stealth_StealthProjectile_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AStealthProjectile(AStealthProjectile&&); \
@@ -97,30 +97,31 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AStealthProjectile); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AStealthProjectile)
 
 
-#define Stealth_Source_Stealth_StealthProjectile_h_12_PRIVATE_PROPERTY_OFFSET \
+#define Stealth_Source_Stealth_StealthProjectile_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CollisionComp() { return STRUCT_OFFSET(AStealthProjectile, CollisionComp); } \
-	FORCEINLINE static uint32 __PPO__ProjectileMovement() { return STRUCT_OFFSET(AStealthProjectile, ProjectileMovement); }
+	FORCEINLINE static uint32 __PPO__ProjectileMovement() { return STRUCT_OFFSET(AStealthProjectile, ProjectileMovement); } \
+	FORCEINLINE static uint32 __PPO__ExplosionEffect() { return STRUCT_OFFSET(AStealthProjectile, ExplosionEffect); }
 
 
-#define Stealth_Source_Stealth_StealthProjectile_h_9_PROLOG
-#define Stealth_Source_Stealth_StealthProjectile_h_12_GENERATED_BODY_LEGACY \
+#define Stealth_Source_Stealth_StealthProjectile_h_11_PROLOG
+#define Stealth_Source_Stealth_StealthProjectile_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Stealth_Source_Stealth_StealthProjectile_h_12_PRIVATE_PROPERTY_OFFSET \
-	Stealth_Source_Stealth_StealthProjectile_h_12_RPC_WRAPPERS \
-	Stealth_Source_Stealth_StealthProjectile_h_12_INCLASS \
-	Stealth_Source_Stealth_StealthProjectile_h_12_STANDARD_CONSTRUCTORS \
+	Stealth_Source_Stealth_StealthProjectile_h_14_PRIVATE_PROPERTY_OFFSET \
+	Stealth_Source_Stealth_StealthProjectile_h_14_RPC_WRAPPERS \
+	Stealth_Source_Stealth_StealthProjectile_h_14_INCLASS \
+	Stealth_Source_Stealth_StealthProjectile_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Stealth_Source_Stealth_StealthProjectile_h_12_GENERATED_BODY \
+#define Stealth_Source_Stealth_StealthProjectile_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Stealth_Source_Stealth_StealthProjectile_h_12_PRIVATE_PROPERTY_OFFSET \
-	Stealth_Source_Stealth_StealthProjectile_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	Stealth_Source_Stealth_StealthProjectile_h_12_INCLASS_NO_PURE_DECLS \
-	Stealth_Source_Stealth_StealthProjectile_h_12_ENHANCED_CONSTRUCTORS \
+	Stealth_Source_Stealth_StealthProjectile_h_14_PRIVATE_PROPERTY_OFFSET \
+	Stealth_Source_Stealth_StealthProjectile_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	Stealth_Source_Stealth_StealthProjectile_h_14_INCLASS_NO_PURE_DECLS \
+	Stealth_Source_Stealth_StealthProjectile_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

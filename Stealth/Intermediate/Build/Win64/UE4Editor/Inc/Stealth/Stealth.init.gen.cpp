@@ -19,7 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeStealth_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Stealth",
 				PKG_CompiledIn | 0x00000000,
-				0x3EC00A60,
+				0x94994CE8,
 				0x181AC9AA,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
